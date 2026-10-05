@@ -1,0 +1,29 @@
+# Compiled Binaries
+bin/*
+!bin/.gitkeep
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
