@@ -1,6 +1,7 @@
 # Compiled Binaries
 bin/*
 !bin/.gitkeep
+obj/*
 *.exe
 *.o
 *.obj
@@ -22,6 +23,13 @@ venv/
 *.swp
 *.suo
 *.user
+
+# Code::Blocks & Dev-C++
+*.cbp
+*.depend
+*.layout
+*.dev
+*.win
 
 # OS
 Thumbs.db
