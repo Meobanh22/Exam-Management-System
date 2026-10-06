@@ -7,23 +7,26 @@
 ## 2. Phân chia công việc chi tiết
 
 - Mạnh:
-  + Giai đoạn 1: Graph (Đồ thị)
-  + Giai đoạn 2: Lập lịch thi (Mô hình hóa xung đột và thuật toán xếp ca thi), Tích hợp hệ thống (Ghép nối các module C++), Python Scripts (Sinh dữ liệu & Giao diện Rich UI)
+  + Data structure: Graph (Đồ thị)
+  + Algorihm: Lập lịch thi (Mô hình hóa xung đột và thuật toán xếp ca thi), Tích hợp hệ thống (Ghép nối các module C++), Python Scripts (Sinh dữ liệu & Giao diện Rich UI)
 
 - Thành viên 1:
-  + Giai đoạn 1: Dynamic Array (Mảng động), Hash Table (Bảng băm)
-  + Giai đoạn 2: Quản lý thí sinh (Thêm, sửa, tìm kiếm thí sinh theo SBD), Phân chia phòng thi (Sắp xếp danh sách và chia phòng thi)
+  + Data stucture: Dynamic Array (Mảng động), Hash Table (Bảng băm)
+  + Algorihm: Quản lý thí sinh (Thêm, sửa, tìm kiếm thí sinh theo SBD), Phân chia phòng thi (Sắp xếp danh sách và chia phòng thi)
 
 - Thành viên 2:
-  + Giai đoạn 1: Tree (Cây), Doubly Linked List (DSLK đôi)
-  + Giai đoạn 2: Ngân hàng câu hỏi (Lưu trữ, phân loại câu hỏi), Tổ chức đề thi (Trộn đề, sinh mã đề và điều hướng câu hỏi)
+  + Data structre: Tree (Cây), Doubly Linked List (DSLK đôi)
+  + ALgorihm: Ngân hàng câu hỏi (Lưu trữ, phân loại câu hỏi), Tổ chức đề thi (Trộn đề, sinh mã đề và điều hướng câu hỏi)
 
 - Thành viên 3:
-  + Giai đoạn 1: Min/Max Heap, Queue (Hàng đợi FIFO)
-  + Giai đoạn 2: Xếp hạng (Sắp xếp kết quả theo nhiều tiêu chí, trích xuất Top-K), Tra cứu điểm (Tìm kiếm kết quả thi), Hàng đợi phúc khảo (Tiếp nhận và xử lý đơn phúc khảo)
+  + Data stucture: Min/Max Heap, Queue (Hàng đợi FIFO)
+  + Algorihm: Xếp hạng (Sắp xếp kết quả theo nhiều tiêu chí, trích xuất Top-K), Tra cứu điểm (Tìm kiếm kết quả thi), Hàng đợi phúc khảo (Tiếp nhận và xử lý đơn phúc khảo)
 
 ## 3. Cấu trúc thư mục dự án
 ```text
+├── include/
+│   ├── models.h
+│   └── module.h
 ├── dsa/
 │   ├── graph.h
 │   ├── vector.h
@@ -44,3 +47,5 @@
 ├── .gitignore
 └── README.md
 ```
+
+
