@@ -35,3 +35,8 @@ venv/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Local Tests
+test_*.cpp
+test*.cpp
+
