@@ -7,6 +7,9 @@ obj/*
 *.obj
 *.dll
 *.so
+SPEC.md
+*.pdf
+s   crap.py
 
 # Python
 __pycache__/
