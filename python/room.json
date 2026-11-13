@@ -1,0 +1,157 @@
+[
+    {
+        "name": "P01",
+        "rows": 8,
+        "cols": 8
+    },
+    {
+        "name": "P02",
+        "rows": 10,
+        "cols": 6
+    },
+    {
+        "name": "P03",
+        "rows": 9,
+        "cols": 6
+    },
+    {
+        "name": "P04",
+        "rows": 5,
+        "cols": 6
+    },
+    {
+        "name": "P05",
+        "rows": 5,
+        "cols": 8
+    },
+    {
+        "name": "P06",
+        "rows": 10,
+        "cols": 6
+    },
+    {
+        "name": "P07",
+        "rows": 10,
+        "cols": 8
+    },
+    {
+        "name": "P08",
+        "rows": 6,
+        "cols": 7
+    },
+    {
+        "name": "P09",
+        "rows": 6,
+        "cols": 7
+    },
+    {
+        "name": "P10",
+        "rows": 7,
+        "cols": 7
+    },
+    {
+        "name": "P11",
+        "rows": 7,
+        "cols": 7
+    },
+    {
+        "name": "P12",
+        "rows": 6,
+        "cols": 8
+    },
+    {
+        "name": "P13",
+        "rows": 8,
+        "cols": 7
+    },
+    {
+        "name": "P14",
+        "rows": 9,
+        "cols": 7
+    },
+    {
+        "name": "P15",
+        "rows": 10,
+        "cols": 6
+    },
+    {
+        "name": "P16",
+        "rows": 9,
+        "cols": 8
+    },
+    {
+        "name": "P17",
+        "rows": 9,
+        "cols": 6
+    },
+    {
+        "name": "P18",
+        "rows": 5,
+        "cols": 6
+    },
+    {
+        "name": "P19",
+        "rows": 9,
+        "cols": 7
+    },
+    {
+        "name": "P20",
+        "rows": 5,
+        "cols": 7
+    },
+    {
+        "name": "P21",
+        "rows": 5,
+        "cols": 6
+    },
+    {
+        "name": "P22",
+        "rows": 8,
+        "cols": 7
+    },
+    {
+        "name": "P23",
+        "rows": 5,
+        "cols": 8
+    },
+    {
+        "name": "P24",
+        "rows": 6,
+        "cols": 8
+    },
+    {
+        "name": "P25",
+        "rows": 7,
+        "cols": 7
+    },
+    {
+        "name": "P26",
+        "rows": 8,
+        "cols": 7
+    },
+    {
+        "name": "P27",
+        "rows": 7,
+        "cols": 6
+    },
+    {
+        "name": "P28",
+        "rows": 10,
+        "cols": 7
+    },
+    {
+        "name": "P29",
+        "rows": 9,
+        "cols": 6
+    },
+    {
+        "name": "P30",
+        "rows": 10,
+        "cols": 7
+    },
+    {
+        "name": "P31",
+        "rows": 8,
+        "cols": 6
+    }
+]

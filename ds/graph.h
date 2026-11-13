@@ -1,6 +1,6 @@
 #pragma once
 
-const int MAX_VERTICES = 100;
+const int MAX_VERTICES = 200;
 
 struct Graph {
     int vertices[MAX_VERTICES];                 

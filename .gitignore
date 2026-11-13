@@ -9,7 +9,7 @@ obj/*
 *.so
 SPEC.md
 *.pdf
-s   crap.py
+scrap.py
 
 # Python
 __pycache__/

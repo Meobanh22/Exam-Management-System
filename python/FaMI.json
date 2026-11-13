@@ -1,0 +1,242 @@
+[
+    {
+        "code": "SSH1111",
+        "name": "Triết học Mác-Lênin"
+    },
+    {
+        "code": "SSH1121",
+        "name": "Kinh tế chính trị Mác-Lênin"
+    },
+    {
+        "code": "SSH1131",
+        "name": "Chủ nghĩa xã hội khoa học"
+    },
+    {
+        "code": "SSH1141",
+        "name": "Lịch sử Đảng cộng sản Việt Nam"
+    },
+    {
+        "code": "SSH1151",
+        "name": "Tư tưởng Hồ Chí Minh"
+    },
+    {
+        "code": "EM1170",
+        "name": "Pháp luật đại cương"
+    },
+    {
+        "code": "FL1131",
+        "name": "Tiếng Anh cơ sở 1"
+    },
+    {
+        "code": "FL1132",
+        "name": "Tiếng Anh cơ sở 2"
+    },
+    {
+        "code": "FL1133",
+        "name": "Tiếng Anh cơ sở 3"
+    },
+    {
+        "code": "FL1134",
+        "name": "Tiếng Anh cơ sở 4"
+    },
+    {
+        "code": "FL1135",
+        "name": "Tiếng Anh cơ sở 5"
+    },
+    {
+        "code": "MI1111",
+        "name": "Giải tích I"
+    },
+    {
+        "code": "MI1121",
+        "name": "Giải tích II"
+    },
+    {
+        "code": "MI1131",
+        "name": "Giải tích III"
+    },
+    {
+        "code": "MI1141",
+        "name": "Đại số"
+    },
+    {
+        "code": "MI3030",
+        "name": "Xác suất thống kê"
+    },
+    {
+        "code": "PH1110",
+        "name": "Vật lý đại cương I"
+    },
+    {
+        "code": "PH1120",
+        "name": "Vật lý đại cương II"
+    },
+    {
+        "code": "IT1110",
+        "name": "Tin học đại cương"
+    },
+    {
+        "code": "MI2150",
+        "name": "Đại số đại cương"
+    },
+    {
+        "code": "MI3041",
+        "name": "Giải tích số"
+    },
+    {
+        "code": "MI2000",
+        "name": "Nhập môn Toán Tin"
+    },
+    {
+        "code": "MI3010",
+        "name": "Toán rời rạc"
+    },
+    {
+        "code": "MI2060",
+        "name": "Cơ sở giải tích hàm"
+    },
+    {
+        "code": "MI3060",
+        "name": "Cấu trúc dữ liệu và giải thuật"
+    },
+    {
+        "code": "MI3090",
+        "name": "Cơ sở dữ liệu"
+    },
+    {
+        "code": "MI3310",
+        "name": "Kỹ thuật lập trình"
+    },
+    {
+        "code": "MI3370",
+        "name": "Hệ điều hành"
+    },
+    {
+        "code": "MI3120",
+        "name": "Phân tích và thiết kế hệ thống"
+    },
+    {
+        "code": "MI4060",
+        "name": "Hệ thống và mạng máy tính"
+    },
+    {
+        "code": "MI3050",
+        "name": "Các phương pháp tối ưu"
+    },
+    {
+        "code": "MI3070",
+        "name": "Phương trình đạo hàm riêng"
+    },
+    {
+        "code": "MI4090",
+        "name": "Lập trình hướng đối tượng"
+    },
+    {
+        "code": "MI3080",
+        "name": "Giải tích phức và ứng dụng"
+    },
+    {
+        "code": "MI4344",
+        "name": "Kiến trúc máy tính"
+    },
+    {
+        "code": "MI3042",
+        "name": "Phương pháp số"
+    },
+    {
+        "code": "EM1010",
+        "name": "Quản trị học đại cương"
+    },
+    {
+        "code": "EM1180",
+        "name": "Văn hóa kinh doanh và tinh thần khởi nghiệp"
+    },
+    {
+        "code": "ED3280",
+        "name": "Tâm lý học ứng dụng"
+    },
+    {
+        "code": "ED3220",
+        "name": "Kỹ năng mềm"
+    },
+    {
+        "code": "MI2030",
+        "name": "Technical Writing and Presentation"
+    },
+    {
+        "code": "MI4414",
+        "name": "Quản trị dự án CNTT"
+    },
+    {
+        "code": "MI4314",
+        "name": "Tối ưu tổ hợp"
+    },
+    {
+        "code": "MI4100",
+        "name": "Mật mã và độ phức tạp thuật toán"
+    },
+    {
+        "code": "MI4364",
+        "name": "Tính toán song song"
+    },
+    {
+        "code": "MI4374",
+        "name": "Thiết kế, cài đặt và quản trị mạng"
+    },
+    {
+        "code": "MI4382",
+        "name": "Đồ họa máy tính"
+    },
+    {
+        "code": "MI4214",
+        "name": "Kho dữ liệu và kinh doanh thông minh"
+    },
+    {
+        "code": "MI3522",
+        "name": "Kỹ thuật AI"
+    },
+    {
+        "code": "MI4511",
+        "name": "Học máy"
+    },
+    {
+        "code": "MI4024",
+        "name": "Phân tích số liệu"
+    },
+    {
+        "code": "MI4304",
+        "name": "Hệ thống phân tán"
+    },
+    {
+        "code": "MI4050",
+        "name": "Chuỗi thời gian"
+    },
+    {
+        "code": "MI4216",
+        "name": "Hệ hỗ trợ quyết định"
+    },
+    {
+        "code": "MI3622",
+        "name": "Phân tích dữ liệu lớn và ứng dụng"
+    },
+    {
+        "code": "MI4162",
+        "name": "Lập trình tính toán"
+    },
+    {
+        "code": "MI4034",
+        "name": "Mô hình toán kinh tế"
+    },
+    {
+        "code": "MI4084",
+        "name": "Phương pháp sai phân và phần tử hữu hạn"
+    },
+    {
+        "code": "MI4341",
+        "name": "Một số phương pháp toán học trong tài chính"
+    },
+    {
+        "code": "MI4114",
+        "name": "Mô phỏng ngẫu nhiên và ứng dụng"
+    }
+]

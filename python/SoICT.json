@@ -1,0 +1,234 @@
+[
+    {
+        "code": "SSH1110",
+        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin I"
+    },
+    {
+        "code": "SSH1120",
+        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin II"
+    },
+    {
+        "code": "SSH1050",
+        "name": "Tư tưởng Hồ Chí Minh"
+    },
+    {
+        "code": "SSH1130",
+        "name": "Đường lối cách mạng của Đảng CSVN"
+    },
+    {
+        "code": "EM1170",
+        "name": "Pháp luật đại cương"
+    },
+    {
+        "code": "FL1100",
+        "name": "Tiếng Anh I"
+    },
+    {
+        "code": "FL1101",
+        "name": "Tiếng Anh II"
+    },
+    {
+        "code": "MI1111",
+        "name": "Giải tích I"
+    },
+    {
+        "code": "MI1121",
+        "name": "Giải tích II"
+    },
+    {
+        "code": "MI1131",
+        "name": "Giải tích III"
+    },
+    {
+        "code": "MI1141",
+        "name": "Đại số"
+    },
+    {
+        "code": "MI2020",
+        "name": "Xác suất thống kê"
+    },
+    {
+        "code": "IT2000",
+        "name": "Nhập môn Công nghệ thông tin và Truyền thông"
+    },
+    {
+        "code": "PH1120",
+        "name": "Vật lý đại cương II"
+    },
+    {
+        "code": "IT1108",
+        "name": "Nhập môn lập trình"
+    },
+    {
+        "code": "IT3020",
+        "name": "Toán rời rạc"
+    },
+    {
+        "code": "MI3052",
+        "name": "Nhập môn các phương pháp tối ưu"
+    },
+    {
+        "code": "IT2030",
+        "name": "Technical Writing and Presentation"
+    },
+    {
+        "code": "EM1010",
+        "name": "Quản trị học đại cương"
+    },
+    {
+        "code": "EM1180",
+        "name": "Văn hóa kinh doanh và tinh thần khởi nghiệp"
+    },
+    {
+        "code": "ED3280",
+        "name": "Tâm lý học ứng dụng"
+    },
+    {
+        "code": "ED3220",
+        "name": "Kỹ năng mềm"
+    },
+    {
+        "code": "ET3262",
+        "name": "Tư duy công nghệ và thiết kế kỹ thuật"
+    },
+    {
+        "code": "TEX3123",
+        "name": "Thiết kế mỹ thuật công nghiệp"
+    },
+    {
+        "code": "IT2022",
+        "name": "Thống kê ứng dụng và quy hoạch thực nghiệm"
+    },
+    {
+        "code": "IT3011",
+        "name": "Cấu trúc dữ liệu và thuật toán"
+    },
+    {
+        "code": "IT3030",
+        "name": "Kiến trúc máy tính"
+    },
+    {
+        "code": "IT3040",
+        "name": "Kỹ thuật lập trình"
+    },
+    {
+        "code": "IT3070",
+        "name": "Nguyên lý hệ điều hành"
+    },
+    {
+        "code": "IT3080",
+        "name": "Mạng máy tính"
+    },
+    {
+        "code": "IT3090",
+        "name": "Cơ sở dữ liệu"
+    },
+    {
+        "code": "IT3100",
+        "name": "Lập trình hướng đối tượng"
+    },
+    {
+        "code": "IT3120",
+        "name": "Phân tích và thiết kế hệ thống"
+    },
+    {
+        "code": "IT3160",
+        "name": "Nhập môn Trí tuệ nhân tạo"
+    },
+    {
+        "code": "IT3170",
+        "name": "Thuật toán ứng dụng"
+    },
+    {
+        "code": "IT3180",
+        "name": "Nhập môn Công nghệ phần mềm"
+    },
+    {
+        "code": "IT3190",
+        "name": "Nhập môn Học máy và khai phá dữ liệu"
+    },
+    {
+        "code": "IT4015",
+        "name": "Nhập môn An toàn thông tin"
+    },
+    {
+        "code": "IT4244",
+        "name": "Quản trị dự án công nghệ thông tin"
+    },
+    {
+        "code": "IT4653",
+        "name": "Học sâu và ứng dụng"
+    },
+    {
+        "code": "IT4490",
+        "name": "Thiết kế và xây dựng phần mềm"
+    },
+    {
+        "code": "IT4441",
+        "name": "Giao diện và trải nghiệm người dùng"
+    },
+    {
+        "code": "IT4501",
+        "name": "Đảm bảo chất lượng phần mềm"
+    },
+    {
+        "code": "IT4785",
+        "name": "Phát triển ứng dụng cho thiết bị di động"
+    },
+    {
+        "code": "IT4350",
+        "name": "Kiến trúc các hệ thống thông tin và ứng dụng"
+    },
+    {
+        "code": "IT4611",
+        "name": "Các hệ thống phân tán và ứng dụng"
+    },
+    {
+        "code": "IT4341",
+        "name": "Hệ trợ giúp quyết định"
+    },
+    {
+        "code": "IT4863",
+        "name": "Tìm kiếm thông tin"
+    },
+    {
+        "code": "IT4930",
+        "name": "Nhập môn Khoa học dữ liệu"
+    },
+    {
+        "code": "IT4931",
+        "name": "Lưu trữ và xử lý dữ liệu lớn"
+    },
+    {
+        "code": "IT5425",
+        "name": "Quản trị dữ liệu và trực quan hóa"
+    },
+    {
+        "code": "IT4906",
+        "name": "Tính toán tiến hóa"
+    },
+    {
+        "code": "IT4409",
+        "name": "Công nghệ Web và dịch vụ trực tuyến"
+    },
+    {
+        "code": "IT4788",
+        "name": "Phát triển ứng dụng đa nền tảng"
+    },
+    {
+        "code": "IT4663",
+        "name": "Tối ưu lập kế hoạch"
+    },
+    {
+        "code": "IT4613",
+        "name": "Hệ gợi ý"
+    },
+    {
+        "code": "IT4818",
+        "name": "Phân tích nghiệp vụ thông minh"
+    },
+    {
+        "code": "IT4480",
+        "name": "Làm việc nhóm và kỹ năng giao tiếp"
+    }
+]

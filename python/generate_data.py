@@ -1,5 +1,7 @@
+import json
 import random
-
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 LAST_NAMES = [
@@ -46,21 +48,30 @@ def generate_name():
     surnames, weight = zip(*LAST_NAMES)
     last_name = random.choices(surnames, weights=weight, k=1)[0]
 
-    gender = random.choice(["M","F"])
+    gender = random.choices(["M","F"], [0.7, 0.3])[0]
     mid = MID_NAMES_MALE if gender == "M" else MID_NAMES_FEMALE
     first = FIRST_NAMES_MALE if gender == "M" else FIRST_NAMES_FEMALE
 
     first_name = random.choice(first)
     if random.random() < 0.75:
-        mid_name = random.choice(MID_NAMES_MALE if gender == "M" else MID_NAMES_FEMALE)
+        mid_name = random.choice(mid)
     else:
-        m1 = random.choice(MID_NAMES_MALE if gender == "M" else MID_NAMES_FEMALE)
-        m2 = random.choice(MID_NAMES_MALE if gender == "M" else MID_NAMES_FEMALE)
+        m1 = random.choice(mid)
+        m2 = random.choice(mid)
         mid_name = f"{m1} {m2}"
     return (f"{last_name} {mid_name} {first_name}", gender)
 
 def generate_studentId(year):
     return year+f"{random.randint(10000,20000)}" if year == "2026" or year == "2025" else year+f"{random.randint(1000,9999)}"
+
+with open(os.path.join(SCRIPT_DIR, "FaMI.json"), "r", encoding="utf-8") as f:
+    data_fami = json.load(f)
+with open(os.path.join(SCRIPT_DIR, "SoICT.json"), "r", encoding="utf-8") as f:
+    data_soict = json.load(f)
+
+def generate_subjects(num_subjects, school):
+    data = data_fami if school == "FaMI" else data_soict
+    return random.sample(data, num_subjects)
 
 used_id = set()
 def generate_student():
@@ -75,12 +86,31 @@ def generate_student():
             break
     used_id.add(studentId)
     name, gender = generate_name()
+    gender = "Female" if gender == "F" else "Male"
     school = random.choices(["FaMI","SoICT"],[0.20,0.80])[0]
+    num_subjects = random.choices(range(1,7),[0.05,0.10,0.20,0.30,0.20,0.15])[0]
+    subjectIDs = generate_subjects(num_subjects, school)
+    subjectIDs = [s["code"] for s in subjectIDs]
     return {
         "studentId": studentId,
         "name": name,
-        "gender": "Female" if gender == "F" else "Male",
+        "gender": gender,
         "dob": dob,
-        "school": school
+        "school": school,
+        "subjectIDs": subjectIDs
     }
 
+def generate_room():
+    n = random.randint(30,40)
+    rooms = []
+    for i in range(n):
+        room_name = f"P{i+1:02d}"
+        rows = random.randint(5,10)
+        cols = random.randint(6,8)
+        rooms.append({"roomId": room_name, "rows": rows, "cols": cols})
+    return rooms
+
+with open(os.path.join(SCRIPT_DIR, "room.json"), "w", encoding="utf-8") as f:
+    json.dump(generate_room(), f, ensure_ascii=False, indent=4)
+with open(os.path.join(SCRIPT_DIR, "student.json"), "w", encoding="utf-8") as f:
+    json.dump([generate_student() for _ in range(8000)], f, ensure_ascii=False, indent=4)
