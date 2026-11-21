@@ -9,6 +9,7 @@ struct Subject {
 struct ExamSlot {
     std::string subjectId;
     std::string subjectName;
+    std::string roomID;
     int slotId;
     int studentCount;
 };
@@ -107,22 +108,60 @@ int generateSchedule(DynamicArray<ExamSlot>& outSlots) {
 
     int currentSlot = 1;
     int colorsUsed = 0;
+
+    DynamicArray<Room> rooms;
+    getAllRooms(rooms);
+    std::string assignedRooms[MAX_VERTICES];
+    int roomSlot[rooms.size()];
+    for (int k = 0; k < rooms.size(); k++) {
+        roomSlot[k] = 0;
+    }
+    for (int i = 0; i < rooms.size(); i++) {
+        for (int j = i + 1; j < rooms.size(); j++) {
+            if (rooms[i].rows * rooms[i].cols < rooms[j].rows * rooms[j].cols) {
+                Room temp = rooms[i];
+                rooms[i] = rooms[j];
+                rooms[j] = temp;
+            }
+        }
+    }
+
     while (colorsUsed < subjectCount) {
+        for (int j = 0; j < rooms.size(); j++) {
+            roomSlot[j] = 0;
+        }
         for (int i = 0; i < subjectCount; i++) {
             int u = order[i];
-            if (colors[u] == -1) {
-                bool canColor = true;
-                for (int j = 0; j < subjectCount; j++) {
-                    if (subjectGraph.hasEdge(u, j) && colors[j] == currentSlot) {
-                        canColor = false;
-                        break;
-                    }
-                }
-                if (canColor) {
-                    colors[u] = currentSlot;
-                    colorsUsed++;
+            if (colors[u] != -1) continue;
+            bool canColor = true;
+            for (int j = 0; j < subjectCount; j++) {
+                if (subjectGraph.hasEdge(u, j) && colors[j] == currentSlot) {
+                    canColor = false;
+                    break;
                 }
             }
+            if (!canColor) continue;
+
+            int tempPicked[100];
+            int tempCount = 0;
+            int student = studentCounts[u];
+            for (int k = 0; k < rooms.size(); k++) {
+                if (roomSlot[k] == 0 ){
+                    student -= rooms[k].rows * rooms[k].cols;
+                    tempPicked[tempCount++] = k;
+                    if (student <= 0) break;
+                }
+            }
+            if (student <= 0) {
+                colors[u] = currentSlot;
+                colorsUsed++;
+                for (int p = 0; p < tempCount; p++) {
+                    roomSlot[tempPicked[p]] = 1;
+                    if (p > 0) assignedRooms[u] += ",";
+                    assignedRooms[u] += rooms[tempPicked[p]].roomId; 
+                }
+            }
+
         }
         currentSlot++;
     }
@@ -133,6 +172,7 @@ int generateSchedule(DynamicArray<ExamSlot>& outSlots) {
         slot.subjectName = subjects[i].subjectName;
         slot.slotId = colors[i];
         slot.studentCount = studentCounts[i];
+        slot.roomID = assignedRooms[i];
         outSlots.push_back(slot);
     }
     return 0;
