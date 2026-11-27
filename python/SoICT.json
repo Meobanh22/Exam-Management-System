@@ -1,234 +1,292 @@
 [
     {
         "code": "SSH1110",
-        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin I"
+        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin I",
+        "year": 1
     },
     {
         "code": "SSH1120",
-        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin II"
+        "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin II",
+        "year": 1
     },
     {
         "code": "SSH1050",
-        "name": "Tư tưởng Hồ Chí Minh"
+        "name": "Tư tưởng Hồ Chí Minh",
+        "year": 2
     },
     {
         "code": "SSH1130",
-        "name": "Đường lối cách mạng của Đảng CSVN"
+        "name": "Đường lối cách mạng của Đảng CSVN",
+        "year": 3
     },
     {
         "code": "EM1170",
-        "name": "Pháp luật đại cương"
+        "name": "Pháp luật đại cương",
+        "year": 1
     },
     {
         "code": "FL1100",
-        "name": "Tiếng Anh I"
+        "name": "Tiếng Anh I",
+        "year": 1
     },
     {
         "code": "FL1101",
-        "name": "Tiếng Anh II"
+        "name": "Tiếng Anh II",
+        "year": 1
     },
     {
         "code": "MI1111",
-        "name": "Giải tích I"
+        "name": "Giải tích I",
+        "year": 1
     },
     {
         "code": "MI1121",
-        "name": "Giải tích II"
+        "name": "Giải tích II",
+        "year": 1
     },
     {
         "code": "MI1131",
-        "name": "Giải tích III"
+        "name": "Giải tích III",
+        "year": 2
     },
     {
         "code": "MI1141",
-        "name": "Đại số"
+        "name": "Đại số",
+        "year": 1
     },
     {
         "code": "MI2020",
-        "name": "Xác suất thống kê"
+        "name": "Xác suất thống kê",
+        "year": 2
     },
     {
         "code": "IT2000",
-        "name": "Nhập môn Công nghệ thông tin và Truyền thông"
+        "name": "Nhập môn Công nghệ thông tin và Truyền thông",
+        "year": 1
     },
     {
         "code": "PH1120",
-        "name": "Vật lý đại cương II"
+        "name": "Vật lý đại cương II",
+        "year": 2
     },
     {
         "code": "IT1108",
-        "name": "Nhập môn lập trình"
+        "name": "Nhập môn lập trình",
+        "year": 1
     },
     {
         "code": "IT3020",
-        "name": "Toán rời rạc"
+        "name": "Toán rời rạc",
+        "year": 1
     },
     {
         "code": "MI3052",
-        "name": "Nhập môn các phương pháp tối ưu"
+        "name": "Nhập môn các phương pháp tối ưu",
+        "year": 2
     },
     {
         "code": "IT2030",
-        "name": "Technical Writing and Presentation"
+        "name": "Technical Writing and Presentation",
+        "year": 2
     },
     {
         "code": "EM1010",
-        "name": "Quản trị học đại cương"
+        "name": "Quản trị học đại cương",
+        "year": 1
     },
     {
         "code": "EM1180",
-        "name": "Văn hóa kinh doanh và tinh thần khởi nghiệp"
+        "name": "Văn hóa kinh doanh và tinh thần khởi nghiệp",
+        "year": 4
     },
     {
         "code": "ED3280",
-        "name": "Tâm lý học ứng dụng"
+        "name": "Tâm lý học ứng dụng",
+        "year": 4
     },
     {
         "code": "ED3220",
-        "name": "Kỹ năng mềm"
+        "name": "Kỹ năng mềm",
+        "year": 4
     },
     {
         "code": "ET3262",
-        "name": "Tư duy công nghệ và thiết kế kỹ thuật"
+        "name": "Tư duy công nghệ và thiết kế kỹ thuật",
+        "year": 2
     },
     {
         "code": "TEX3123",
-        "name": "Thiết kế mỹ thuật công nghiệp"
+        "name": "Thiết kế mỹ thuật công nghiệp",
+        "year": 3
     },
     {
         "code": "IT2022",
-        "name": "Thống kê ứng dụng và quy hoạch thực nghiệm"
+        "name": "Thống kê ứng dụng và quy hoạch thực nghiệm",
+        "year": 1
     },
     {
         "code": "IT3011",
-        "name": "Cấu trúc dữ liệu và thuật toán"
+        "name": "Cấu trúc dữ liệu và thuật toán",
+        "year": 1
     },
     {
         "code": "IT3030",
-        "name": "Kiến trúc máy tính"
+        "name": "Kiến trúc máy tính",
+        "year": 2
     },
     {
         "code": "IT3040",
-        "name": "Kỹ thuật lập trình"
+        "name": "Kỹ thuật lập trình",
+        "year": 2
     },
     {
         "code": "IT3070",
-        "name": "Nguyên lý hệ điều hành"
+        "name": "Nguyên lý hệ điều hành",
+        "year": 2
     },
     {
         "code": "IT3080",
-        "name": "Mạng máy tính"
+        "name": "Mạng máy tính",
+        "year": 2
     },
     {
         "code": "IT3090",
-        "name": "Cơ sở dữ liệu"
+        "name": "Cơ sở dữ liệu",
+        "year": 3
     },
     {
         "code": "IT3100",
-        "name": "Lập trình hướng đối tượng"
+        "name": "Lập trình hướng đối tượng",
+        "year": 2
     },
     {
         "code": "IT3120",
-        "name": "Phân tích và thiết kế hệ thống"
+        "name": "Phân tích và thiết kế hệ thống",
+        "year": 3
     },
     {
         "code": "IT3160",
-        "name": "Nhập môn Trí tuệ nhân tạo"
+        "name": "Nhập môn Trí tuệ nhân tạo",
+        "year": 3
     },
     {
         "code": "IT3170",
-        "name": "Thuật toán ứng dụng"
+        "name": "Thuật toán ứng dụng",
+        "year": 3
     },
     {
         "code": "IT3180",
-        "name": "Nhập môn Công nghệ phần mềm"
+        "name": "Nhập môn Công nghệ phần mềm",
+        "year": 3
     },
     {
         "code": "IT3190",
-        "name": "Nhập môn Học máy và khai phá dữ liệu"
+        "name": "Nhập môn Học máy và khai phá dữ liệu",
+        "year": 3
     },
     {
         "code": "IT4015",
-        "name": "Nhập môn An toàn thông tin"
+        "name": "Nhập môn An toàn thông tin",
+        "year": 3
     },
     {
         "code": "IT4244",
-        "name": "Quản trị dự án công nghệ thông tin"
+        "name": "Quản trị dự án công nghệ thông tin",
+        "year": 4
     },
     {
         "code": "IT4653",
-        "name": "Học sâu và ứng dụng"
+        "name": "Học sâu và ứng dụng",
+        "year": 3
     },
     {
         "code": "IT4490",
-        "name": "Thiết kế và xây dựng phần mềm"
+        "name": "Thiết kế và xây dựng phần mềm",
+        "year": 4
     },
     {
         "code": "IT4441",
-        "name": "Giao diện và trải nghiệm người dùng"
+        "name": "Giao diện và trải nghiệm người dùng",
+        "year": 4
     },
     {
         "code": "IT4501",
-        "name": "Đảm bảo chất lượng phần mềm"
+        "name": "Đảm bảo chất lượng phần mềm",
+        "year": 4
     },
     {
         "code": "IT4785",
-        "name": "Phát triển ứng dụng cho thiết bị di động"
+        "name": "Phát triển ứng dụng cho thiết bị di động",
+        "year": 4
     },
     {
         "code": "IT4350",
-        "name": "Kiến trúc các hệ thống thông tin và ứng dụng"
+        "name": "Kiến trúc các hệ thống thông tin và ứng dụng",
+        "year": 4
     },
     {
         "code": "IT4611",
-        "name": "Các hệ thống phân tán và ứng dụng"
+        "name": "Các hệ thống phân tán và ứng dụng",
+        "year": 4
     },
     {
         "code": "IT4341",
-        "name": "Hệ trợ giúp quyết định"
+        "name": "Hệ trợ giúp quyết định",
+        "year": 4
     },
     {
         "code": "IT4863",
-        "name": "Tìm kiếm thông tin"
+        "name": "Tìm kiếm thông tin",
+        "year": 4
     },
     {
         "code": "IT4930",
-        "name": "Nhập môn Khoa học dữ liệu"
+        "name": "Nhập môn Khoa học dữ liệu",
+        "year": 3
     },
     {
         "code": "IT4931",
-        "name": "Lưu trữ và xử lý dữ liệu lớn"
+        "name": "Lưu trữ và xử lý dữ liệu lớn",
+        "year": 4
     },
     {
         "code": "IT5425",
-        "name": "Quản trị dữ liệu và trực quan hóa"
+        "name": "Quản trị dữ liệu và trực quan hóa",
+        "year": 4
     },
     {
         "code": "IT4906",
-        "name": "Tính toán tiến hóa"
+        "name": "Tính toán tiến hóa",
+        "year": 4
     },
     {
         "code": "IT4409",
-        "name": "Công nghệ Web và dịch vụ trực tuyến"
+        "name": "Công nghệ Web và dịch vụ trực tuyến",
+        "year": 3
     },
     {
         "code": "IT4788",
-        "name": "Phát triển ứng dụng đa nền tảng"
+        "name": "Phát triển ứng dụng đa nền tảng",
+        "year": 4
     },
     {
         "code": "IT4663",
-        "name": "Tối ưu lập kế hoạch"
+        "name": "Tối ưu lập kế hoạch",
+        "year": 3
     },
     {
         "code": "IT4613",
-        "name": "Hệ gợi ý"
+        "name": "Hệ gợi ý",
+        "year": 4
     },
     {
         "code": "IT4818",
-        "name": "Phân tích nghiệp vụ thông minh"
+        "name": "Phân tích nghiệp vụ thông minh",
+        "year": 4
     },
     {
         "code": "IT4480",
-        "name": "Làm việc nhóm và kỹ năng giao tiếp"
+        "name": "Làm việc nhóm và kỹ năng giao tiếp",
+        "year": 4
     }
 ]

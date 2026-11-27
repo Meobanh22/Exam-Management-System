@@ -42,4 +42,6 @@ Desktop.ini
 # Local Tests
 test_*.cpp
 test*.cpp
+student.json
+room.json
 
