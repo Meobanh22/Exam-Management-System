@@ -1,27 +1,13 @@
-#include "ds.h"
-#include <string>
-
-struct Subject {
-    std::string subjectId;
-    std::string subjectName;
-};
-
-struct ExamSlot {
-    std::string subjectId;
-    std::string subjectName;
-    std::string roomID;
-    int slotId;
-    int studentCount;
-};
+#include "module.h"
 
 static Graph subjectGraph;
 static Subject subjects[MAX_VERTICES];
 static int subjectCount = 0;
 static int studentCounts[MAX_VERTICES] = {0};
 
-static int findSubjectIndex(const std::string& subjectId){
+static int findSubjectIndex(const std::string& subjectID){
     for(int i = 0; i < subjectCount; i++){
-        if (subjects[i].subjectId == subjectId){
+        if (subjects[i].subjectID == subjectID){
             return i;
         }
     }
@@ -29,7 +15,7 @@ static int findSubjectIndex(const std::string& subjectId){
 }
 
 int addSubject(const Subject& subj){
-    if (findSubjectIndex(subj.subjectId) == -1) {
+    if (findSubjectIndex(subj.subjectID) == -1) {
         if (subjectCount < MAX_VERTICES) {
             int index = subjectGraph.addVertex(subjectCount);
             if ( index == -1) return -1;
@@ -158,7 +144,7 @@ int generateSchedule(DynamicArray<ExamSlot>& outSlots) {
                 for (int p = 0; p < tempCount; p++) {
                     roomSlot[tempPicked[p]] = 1;
                     if (p > 0) assignedRooms[u] += ",";
-                    assignedRooms[u] += rooms[tempPicked[p]].roomId; 
+                    assignedRooms[u] += rooms[tempPicked[p]].roomID; 
                 }
             }
 
@@ -168,9 +154,9 @@ int generateSchedule(DynamicArray<ExamSlot>& outSlots) {
 
     for (int i = 0; i < subjectCount; i++) {
         ExamSlot slot;
-        slot.subjectId = subjects[i].subjectId;
+        slot.subjectID = subjects[i].subjectID;
         slot.subjectName = subjects[i].subjectName;
-        slot.slotId = colors[i];
+        slot.slotID = colors[i];
         slot.studentCount = studentCounts[i];
         slot.roomID = assignedRooms[i];
         outSlots.push_back(slot);
