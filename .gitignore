@@ -44,4 +44,5 @@ test_*.cpp
 test*.cpp
 student.json
 room.json
+QNA.md
 
