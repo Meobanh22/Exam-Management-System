@@ -1,242 +1,302 @@
 [
     {
         "code": "SSH1111",
-        "name": "Triết học Mác-Lênin"
+        "name": "Triết học Mác-Lênin",
+        "year": 1
     },
     {
         "code": "SSH1121",
-        "name": "Kinh tế chính trị Mác-Lênin"
+        "name": "Kinh tế chính trị Mác-Lênin",
+        "year": 1
     },
     {
         "code": "SSH1131",
-        "name": "Chủ nghĩa xã hội khoa học"
+        "name": "Chủ nghĩa xã hội khoa học",
+        "year": 2
     },
     {
         "code": "SSH1141",
-        "name": "Lịch sử Đảng cộng sản Việt Nam"
+        "name": "Lịch sử Đảng cộng sản Việt Nam",
+        "year": 2
     },
     {
         "code": "SSH1151",
-        "name": "Tư tưởng Hồ Chí Minh"
+        "name": "Tư tưởng Hồ Chí Minh",
+        "year": 2
     },
     {
         "code": "EM1170",
-        "name": "Pháp luật đại cương"
+        "name": "Pháp luật đại cương",
+        "year": 1
     },
     {
         "code": "FL1131",
-        "name": "Tiếng Anh cơ sở 1"
+        "name": "Tiếng Anh cơ sở 1",
+        "year": 1
     },
     {
         "code": "FL1132",
-        "name": "Tiếng Anh cơ sở 2"
+        "name": "Tiếng Anh cơ sở 2",
+        "year": 1
     },
     {
         "code": "FL1133",
-        "name": "Tiếng Anh cơ sở 3"
+        "name": "Tiếng Anh cơ sở 3",
+        "year": 2
     },
     {
         "code": "FL1134",
-        "name": "Tiếng Anh cơ sở 4"
+        "name": "Tiếng Anh cơ sở 4",
+        "year": 2
     },
     {
         "code": "FL1135",
-        "name": "Tiếng Anh cơ sở 5"
+        "name": "Tiếng Anh cơ sở 5",
+        "year": 3
     },
     {
         "code": "MI1111",
-        "name": "Giải tích I"
+        "name": "Giải tích I",
+        "year": 1
     },
     {
         "code": "MI1121",
-        "name": "Giải tích II"
+        "name": "Giải tích II",
+        "year": 1
     },
     {
         "code": "MI1131",
-        "name": "Giải tích III"
+        "name": "Giải tích III",
+        "year": 1
     },
     {
         "code": "MI1141",
-        "name": "Đại số"
+        "name": "Đại số",
+        "year": 1
     },
     {
         "code": "MI3030",
-        "name": "Xác suất thống kê"
+        "name": "Xác suất thống kê",
+        "year": 2
     },
     {
         "code": "PH1110",
-        "name": "Vật lý đại cương I"
+        "name": "Vật lý đại cương I",
+        "year": 1
     },
     {
         "code": "PH1120",
-        "name": "Vật lý đại cương II"
+        "name": "Vật lý đại cương II",
+        "year": 2
     },
     {
         "code": "IT1110",
-        "name": "Tin học đại cương"
+        "name": "Tin học đại cương",
+        "year": 2
     },
     {
         "code": "MI2150",
-        "name": "Đại số đại cương"
+        "name": "Đại số đại cương",
+        "year": 2
     },
     {
         "code": "MI3041",
-        "name": "Giải tích số"
+        "name": "Giải tích số",
+        "year": 2
     },
     {
         "code": "MI2000",
-        "name": "Nhập môn Toán Tin"
+        "name": "Nhập môn Toán Tin",
+        "year": 1
     },
     {
         "code": "MI3010",
-        "name": "Toán rời rạc"
+        "name": "Toán rời rạc",
+        "year": 2
     },
     {
         "code": "MI2060",
-        "name": "Cơ sở giải tích hàm"
+        "name": "Cơ sở giải tích hàm",
+        "year": 2
     },
     {
         "code": "MI3060",
-        "name": "Cấu trúc dữ liệu và giải thuật"
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "year": 2
     },
     {
         "code": "MI3090",
-        "name": "Cơ sở dữ liệu"
+        "name": "Cơ sở dữ liệu",
+        "year": 2
     },
     {
         "code": "MI3310",
-        "name": "Kỹ thuật lập trình"
+        "name": "Kỹ thuật lập trình",
+        "year": 2
     },
     {
         "code": "MI3370",
-        "name": "Hệ điều hành"
+        "name": "Hệ điều hành",
+        "year": 2
     },
     {
         "code": "MI3120",
-        "name": "Phân tích và thiết kế hệ thống"
+        "name": "Phân tích và thiết kế hệ thống",
+        "year": 3
     },
     {
         "code": "MI4060",
-        "name": "Hệ thống và mạng máy tính"
+        "name": "Hệ thống và mạng máy tính",
+        "year": 3
     },
     {
         "code": "MI3050",
-        "name": "Các phương pháp tối ưu"
+        "name": "Các phương pháp tối ưu",
+        "year": 3
     },
     {
         "code": "MI3070",
-        "name": "Phương trình đạo hàm riêng"
+        "name": "Phương trình đạo hàm riêng",
+        "year": 3
     },
     {
         "code": "MI4090",
-        "name": "Lập trình hướng đối tượng"
+        "name": "Lập trình hướng đối tượng",
+        "year": 3
     },
     {
         "code": "MI3080",
-        "name": "Giải tích phức và ứng dụng"
+        "name": "Giải tích phức và ứng dụng",
+        "year": 3
     },
     {
         "code": "MI4344",
-        "name": "Kiến trúc máy tính"
+        "name": "Kiến trúc máy tính",
+        "year": 3
     },
     {
         "code": "MI3042",
-        "name": "Phương pháp số"
+        "name": "Phương pháp số",
+        "year": 3
     },
     {
         "code": "EM1010",
-        "name": "Quản trị học đại cương"
+        "name": "Quản trị học đại cương",
+        "year": 1
     },
     {
         "code": "EM1180",
-        "name": "Văn hóa kinh doanh và tinh thần khởi nghiệp"
+        "name": "Văn hóa kinh doanh và tinh thần khởi nghiệp",
+        "year": 4
     },
     {
         "code": "ED3280",
-        "name": "Tâm lý học ứng dụng"
+        "name": "Tâm lý học ứng dụng",
+        "year": 4
     },
     {
         "code": "ED3220",
-        "name": "Kỹ năng mềm"
+        "name": "Kỹ năng mềm",
+        "year": 4
     },
     {
         "code": "MI2030",
-        "name": "Technical Writing and Presentation"
+        "name": "Technical Writing and Presentation",
+        "year": 3
     },
     {
         "code": "MI4414",
-        "name": "Quản trị dự án CNTT"
+        "name": "Quản trị dự án CNTT",
+        "year": 4
     },
     {
         "code": "MI4314",
-        "name": "Tối ưu tổ hợp"
+        "name": "Tối ưu tổ hợp",
+        "year": 3
     },
     {
         "code": "MI4100",
-        "name": "Mật mã và độ phức tạp thuật toán"
+        "name": "Mật mã và độ phức tạp thuật toán",
+        "year": 3
     },
     {
         "code": "MI4364",
-        "name": "Tính toán song song"
+        "name": "Tính toán song song",
+        "year": 3
     },
     {
         "code": "MI4374",
-        "name": "Thiết kế, cài đặt và quản trị mạng"
+        "name": "Thiết kế, cài đặt và quản trị mạng",
+        "year": 4
     },
     {
         "code": "MI4382",
-        "name": "Đồ họa máy tính"
+        "name": "Đồ họa máy tính",
+        "year": 4
     },
     {
         "code": "MI4214",
-        "name": "Kho dữ liệu và kinh doanh thông minh"
+        "name": "Kho dữ liệu và kinh doanh thông minh",
+        "year": 4
     },
     {
         "code": "MI3522",
-        "name": "Kỹ thuật AI"
+        "name": "Kỹ thuật AI",
+        "year": 3
     },
     {
         "code": "MI4511",
-        "name": "Học máy"
+        "name": "Học máy",
+        "year": 4
     },
     {
         "code": "MI4024",
-        "name": "Phân tích số liệu"
+        "name": "Phân tích số liệu",
+        "year": 3
     },
     {
         "code": "MI4304",
-        "name": "Hệ thống phân tán"
+        "name": "Hệ thống phân tán",
+        "year": 4
     },
     {
         "code": "MI4050",
-        "name": "Chuỗi thời gian"
+        "name": "Chuỗi thời gian",
+        "year": 4
     },
     {
         "code": "MI4216",
-        "name": "Hệ hỗ trợ quyết định"
+        "name": "Hệ hỗ trợ quyết định",
+        "year": 3
     },
     {
         "code": "MI3622",
-        "name": "Phân tích dữ liệu lớn và ứng dụng"
+        "name": "Phân tích dữ liệu lớn và ứng dụng",
+        "year": 3
     },
     {
         "code": "MI4162",
-        "name": "Lập trình tính toán"
+        "name": "Lập trình tính toán",
+        "year": 4
     },
     {
         "code": "MI4034",
-        "name": "Mô hình toán kinh tế"
+        "name": "Mô hình toán kinh tế",
+        "year": 4
     },
     {
         "code": "MI4084",
-        "name": "Phương pháp sai phân và phần tử hữu hạn"
+        "name": "Phương pháp sai phân và phần tử hữu hạn",
+        "year": 3
     },
     {
         "code": "MI4341",
-        "name": "Một số phương pháp toán học trong tài chính"
+        "name": "Một số phương pháp toán học trong tài chính",
+        "year": 4
     },
     {
         "code": "MI4114",
-        "name": "Mô phỏng ngẫu nhiên và ứng dụng"
+        "name": "Mô phỏng ngẫu nhiên và ứng dụng",
+        "year": 4
     }
 ]

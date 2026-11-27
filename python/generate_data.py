@@ -69,13 +69,38 @@ with open(os.path.join(SCRIPT_DIR, "FaMI.json"), "r", encoding="utf-8") as f:
 with open(os.path.join(SCRIPT_DIR, "SoICT.json"), "r", encoding="utf-8") as f:
     data_soict = json.load(f)
 
-def generate_subjects(num_subjects, school):
+def generate_subjects(num_subjects, school, year):
     data = data_fami if school == "FaMI" else data_soict
-    return random.sample(data, num_subjects)
+    years = [1, 2, 3, 4]
+    rates = {1: [1, 0, 0, 0], 
+             2: [0.1, 0.8, 0.1, 0], 
+             3: [0.05, 0.2, 0.7, 0.05], 
+             4: [0, 0.05, 0.25, 0.7],
+             5: [0, 0.05, 0.15, 0.8]}
+    studied = set()
+    subjects = []
+    for _ in range(num_subjects):
+        while True:
+            sub_year = random.choices(years, rates[year])[0]
+            data_year = [s for s in data if s["year"] == sub_year]
+            subject = random.choice(data_year)
+            if subject["code"] not in studied:
+                studied.add(subject["code"])
+                subjects.append(subject)
+                break
+    return subjects
+
+SUBJECT_COUNT_RATES = {
+    1: [0, 0, 0, 0.15, 0.50, 0.25, 0.10],
+    2: [0, 0, 0, 0.15, 0.50, 0.25, 0.10],
+    3: [0, 0, 0, 0.05, 0.25, 0.60, 0.10],
+    4: [0.05, 0.15, 0.25, 0.25, 0.15, 0.10, 0.05],
+    5: [0.25, 0.25, 0.25, 0.15, 0.05, 0.05, 0],
+}
 
 used_id = set()
 def generate_student():
-    year = random.randint(2003, 2008)
+    year = random.choices(range(2003, 2009), [0.05, 0.05, 0.25, 0.25, 0.20, 0.20])[0]
     month = random.randint(1, 12)
     day = random.randint(1, 28) if month == 2 else random.randint(1, 30) if month in [4, 6, 9, 11] else random.randint(1, 31)
     dob = f"{day:02d}/{month:02d}/{year}"
@@ -87,9 +112,10 @@ def generate_student():
     used_id.add(studentId)
     name, gender = generate_name()
     gender = "Female" if gender == "F" else "Male"
-    school = random.choices(["FaMI","SoICT"],[0.20,0.80])[0]
-    num_subjects = random.choices(range(1,7),[0.05,0.10,0.20,0.30,0.20,0.15])[0]
-    subjectIDs = generate_subjects(num_subjects, school)
+    school = random.choices(["FaMI","SoICT"], [0.20,0.80])[0]
+    study_year = min(5, 2009 - year)
+    num_subjects = random.choices(range(1, 8), SUBJECT_COUNT_RATES[study_year])[0]
+    subjectIDs = generate_subjects(num_subjects, school, study_year)
     subjectIDs = [s["code"] for s in subjectIDs]
     return {
         "studentId": studentId,
@@ -113,4 +139,4 @@ def generate_room():
 with open(os.path.join(SCRIPT_DIR, "room.json"), "w", encoding="utf-8") as f:
     json.dump(generate_room(), f, ensure_ascii=False, indent=4)
 with open(os.path.join(SCRIPT_DIR, "student.json"), "w", encoding="utf-8") as f:
-    json.dump([generate_student() for _ in range(8000)], f, ensure_ascii=False, indent=4)
+    json.dump([generate_student() for _ in range(random.randint(8000, 9000))], f, ensure_ascii=False, indent=4)
